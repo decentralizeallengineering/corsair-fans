@@ -1,0 +1,10 @@
+[Unit]
+Description=Corsair Commander Core fan zones (CPU zone, case zone)
+
+[Service]
+ExecStart=%h/.local/bin/corsair_fans.py
+Restart=on-failure
+RestartSec=20
+
+[Install]
+WantedBy=default.target

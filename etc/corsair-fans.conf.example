@@ -1,0 +1,18 @@
+# corsair-fans.conf: copy to ~/.config/corsair-fans/corsair-fans.conf (or point CORSAIR_FANS_CONF at it).
+# Plain KEY=VALUE lines; an environment variable of the same name wins. Values shown are the defaults.
+#LIQUIDCTL=liquidctl            # path to the liquidctl binary (for example a venv: /home/ann/.local/share/liquidctl-venv/bin/liquidctl)
+#LIQUIDCTL_MATCH=Commander      # device name passed to liquidctl --match
+#CPU_FANS=fan1 fan2 fan6        # channels that follow the CPU temperature
+#CASE_FANS=fan3 fan4 fan5       # channels that follow max(GPU, RAM)
+#FAN_FLOOR_PCT=60               # lowest speed of either zone
+#CPU_LOW_C=45                   # floor at or below, 100 % at or above CPU_HIGH_C
+#CPU_HIGH_C=65
+#CASE_LOW_C=40                  # GPU ramp
+#CASE_HIGH_C=55
+#RAM_LOW_C=45                   # RAM ramp (spd5118 hwmon sensors)
+#RAM_HIGH_C=55
+#CASE_FULL_GPU_C=55             # case fans at 100 % above this GPU temperature
+#CASE_FULL_RAM_C=52             # ... or this RAM temperature
+#INTERVAL_S=5
+#ALERT_FILE=                    # default ~/.local/state/corsair-fans/alerts.log
+#GPU_HANDOFF_LOCK=              # lock file held while a GPU moves between host and VM; host nvidia-smi is skipped meanwhile
