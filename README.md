@@ -1,5 +1,7 @@
 # corsair-fans
 
+[![tests](https://github.com/decentralizeallengineering/corsair-fans/actions/workflows/tests.yml/badge.svg)](https://github.com/decentralizeallengineering/corsair-fans/actions/workflows/tests.yml) ![license](https://img.shields.io/badge/license-Apache--2.0-blue)
+
 Temperature-driven fan control for a Corsair Commander Core on Linux, as a small user service on top of liquidctl.
 
 The Commander's fans otherwise sit at a fixed hardware speed. This script gives you two zones: the radiator/CPU fans follow the
